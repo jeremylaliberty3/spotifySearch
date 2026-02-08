@@ -79,6 +79,12 @@ app.get("/search", async (req, res) => {
     res.json(combined.slice(0, 10));
   });
 
+
+
+
+
+/////////////// SCRIPT.JS (frontend) ///////////////
+
     // ============================
 // Jukeboxd Search + Modal JS
 // ============================
@@ -119,7 +125,7 @@ async function performSearch() {
 
 
 
-/////////////// SCRIPT.JS (frontend) ///////////////
+
 
 // ----------------------------
 // Render Search Results
